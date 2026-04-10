@@ -432,7 +432,17 @@ Stateflow → Outputs
 
 ### 🔹 Scope
 
-![Scope](images/scope.png)
+![ScopeResult1](1.jpeg)
+![ScopeResult2](2.jpeg)
+![ScopeResult3](3.jpeg)
+![ScopeResult4](4.jpeg)
+![ScopeResult5](5.jpeg)
+![ScopeResult6](6.jpeg)
+![ScopeResult7](7.jpeg)
+![ScopeResult8](8.jpeg)
+![ScopeResult9](9.jpeg)
+![ScopeResult9](9.jpeg)
+
 
 ---
 
