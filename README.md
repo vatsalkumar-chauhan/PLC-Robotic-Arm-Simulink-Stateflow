@@ -422,7 +422,13 @@ Stateflow → Outputs
 
 ### 🔹 Output
 
-![Output](images/output.png)
+![Output Normal](normal.jpeg)
+![1st On](1ston.jpeg)
+![2nd On](2ndon.jpeg)
+![3rd On](3rdon.jpeg)
+![4th On](4thon.jpeg)
+![5th On](final.jpeg)
+
 
 ### 🔹 Scope
 
