@@ -1,4 +1,4 @@
-# PLC-Robotic-Arm-Simulink-Stateflow
+
 # 🤖 PLC-Based Robotic Arm Control System
 
 ### ⚙️ Simulink + Stateflow | Industrial Automation Logic
@@ -317,7 +317,45 @@ Inputs are parallel — not sequential
 
 Sequential Function Chart (SFC)
 
+## 🔹 Stateflow State Details
 
+### State 1 — Idle
+entry: all outputs = false
+transition: [Start_Condition == 1] → Arm_Down
+
+### State 2 — Arm_Down
+entry: Arm_Down_Out = true, others = false
+transition: [Sensor_Object == 1] → Grip
+
+### State 3 — Grip
+entry: Grip_Out = true, others = false
+transition: [after(4, sec)] → Extend
+
+### State 4 — Extend
+entry: Extend_Out = true, others = false
+transition: [after(3, sec)] → Arm_Up
+
+### State 5 — Arm_Up
+entry: Arm_Up_Out = true, others = false
+transition: [after(2, sec)] → Reset
+
+### State 6 — Reset
+entry: all outputs = false
+transition: [Reset_Button == 1] → Idle
+
+
+## ⏱ Timing Summary
+
+| Transition | Condition | Delay |
+|---|---|---|
+| Idle → Arm_Down | Start_Condition == 1 | No delay |
+| Arm_Down → Grip | Sensor_Object == 1 | No delay |
+| Grip → Extend | Timer | 4 seconds |
+| Extend → Arm_Up | Timer | 3 seconds |
+| Arm_Up → Reset | Timer | 2 seconds |
+| Reset → Idle | Reset_Button == 1 | No delay |
+
+**Total cycle time: approximately 9 seconds**
 ---
 
 # 📊 10. Monitoring Layer
@@ -455,8 +493,14 @@ Stateflow → Outputs
 * Timer-based Automation
 
 ---
+# ⚠️ 16. Limitations
 
-# 🚀 16. Future Improvements
+* Inputs are Step blocks — fixed values, not interactive during simulation
+* No physical robot animation — lamp-based visualisation only
+* Time-based transitions only — no real sensor feedback
+* Assumes ideal operating conditions
+* No advanced fault detection or timeout logic
+# 🚀 17. Future Improvements
 
 * Hardware integration (PLC / Arduino)
 * Fault detection system
@@ -465,7 +509,7 @@ Stateflow → Outputs
 
 ---
 
-# 🏁 17. Conclusion
+# 🏁 18. Conclusion
 
 This project successfully demonstrates how **PLC ladder logic concepts can be implemented using Simulink and Stateflow**, combining:
 
@@ -482,6 +526,15 @@ This project successfully demonstrates how **PLC ladder logic concepts can be im
 B.Tech Automation & Robotics
 
 ---
+# 🔗 Related Project
+
+The same Pick and Place logic was also implemented in 
+**CODESYS Ladder Logic** with additional features including 
+fault detection, E-Stop safety interlocks, and position 
+sensor feedback.
+
+👉 CODESYS version:
+[Pick-and-Place-PLC-CODESYS](https://github.com/vatsalkumar-chauhan/Pick-and-Place-PLC-CODESYS)
 
 # ▶️ How to Run the Project
 
