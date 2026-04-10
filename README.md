@@ -415,7 +415,10 @@ Stateflow → Outputs
 
 ### 🔹 Stateflow Diagram
 
-![Stateflow](images/stateflow.png)
+![State Whole Modle](statewhole.jpeg)
+![Statezoomed UpperBlock](state1st.jpeg)
+![Statezoomed LowerBlocks](state2nd.jpeg)
+
 
 ### 🔹 Output
 
