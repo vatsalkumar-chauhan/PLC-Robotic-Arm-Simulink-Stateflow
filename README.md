@@ -406,7 +406,8 @@ Stateflow → Outputs
 
 ### 🔹 Full Model
 
-![Model](model.png.jpeg)
+![Model](model.jpeg)
+(startzoomed.jpeg)
 
 ### 🔹 Stateflow Diagram
 
