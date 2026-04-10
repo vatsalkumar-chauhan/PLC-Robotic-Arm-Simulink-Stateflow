@@ -407,7 +407,11 @@ Stateflow → Outputs
 ### 🔹 Full Model
 
 ![Model](model.jpeg)
-(startzoomed.jpeg)
+![Start Condition](startzoomed.jpeg)
+![Timer Condition](middlezoomed.jpeg)
+![Reset Condition](endzoomed.jpeg)
+![StateBlock](statezoomed.jpeg)
+
 
 ### 🔹 Stateflow Diagram
 
