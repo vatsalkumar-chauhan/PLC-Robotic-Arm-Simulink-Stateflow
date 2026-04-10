@@ -534,7 +534,7 @@ fault detection, E-Stop safety interlocks, and position
 sensor feedback.
 
 👉 CODESYS version:
-[Pick-and-Place-PLC-CODESYS](https://github.com/vatsalkumar-chauhan/Pick-and-Place-PLC-CODESYS)
+[Pick-and-Place-PLC-CODESYS](https://github.com/vatsalkumar-chauhan/Pick-and-Place-PLC-CODESYS.git)
 
 # ▶️ How to Run the Project
 
