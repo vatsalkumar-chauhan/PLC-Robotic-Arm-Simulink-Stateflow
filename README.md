@@ -406,7 +406,7 @@ Stateflow → Outputs
 
 ### 🔹 Full Model
 
-![Model](images/model.png)
+![Model](model.png.jpeg)
 
 ### 🔹 Stateflow Diagram
 
