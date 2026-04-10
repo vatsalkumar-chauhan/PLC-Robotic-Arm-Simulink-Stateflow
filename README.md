@@ -407,41 +407,41 @@ Stateflow → Outputs
 ### 🔹 Full Model
 
 ![Model](model.jpeg)
-![Start Condition](startzoomed.jpeg)
-![Timer Condition](middlezoomed.jpeg)
-![Reset Condition](endzoomed.jpeg)
-![StateBlock](statezoomed.jpeg)
+![Start Condition](start_View.jpeg)
+![Timer Condition](Timer_View.jpeg)
+![Reset Condition](Reset_View.jpeg)
+![StateBlock](state_View.jpeg)
 
 
 ### 🔹 Stateflow Diagram
 
-![State Whole Modle](statewhole.jpeg)
-![Statezoomed UpperBlock](state1st.jpeg)
-![Statezoomed LowerBlocks](state2nd.jpeg)
+![State Whole Modle](state_ConnectionBlocks_View.jpeg)
+![Statezoomed UpperBlock](state_upperhalf_View.jpeg)
+![Statezoomed LowerBlocks](state_Lowerhalf_View.jpeg)
 
 
 ### 🔹 Output
 
-![Output Normal](normal.jpeg)
-![1st On](1ston.jpeg)
-![2nd On](2ndon.jpeg)
-![3rd On](3rdon.jpeg)
-![4th On](4thon.jpeg)
-![5th On](final.jpeg)
+![Output Normal](Idle_True.jpeg)
+![1st On](Arm_Down_True.jpeg)
+![2nd On](Grip_True.jpeg)
+![3rd On](Extend_True.jpeg)
+![4th On](Arm_Up_True.jpeg)
+![5th On](Reset_True.jpeg)
 
 
 ### 🔹 Scope
 
-![ScopeResult1](1.jpeg)
-![ScopeResult2](2.jpeg)
-![ScopeResult3](3.jpeg)
-![ScopeResult4](4.jpeg)
-![ScopeResult5](5.jpeg)
-![ScopeResult6](6.jpeg)
-![ScopeResult7](7.jpeg)
-![ScopeResult8](8.jpeg)
-![ScopeResult9](9.jpeg)
-![ScopeResult9](9.jpeg)
+![ScopeResult1](Arm_Down_StateOutput.jpeg)
+![ScopeResult2](Grip_StateOutput.jpeg)
+![ScopeResult3](Extend_StateOutput.jpeg)
+![ScopeResult4](Arm_Up_StateOutput.jpeg)
+![ScopeResult5](Timer_Output.jpeg)
+![ScopeResult6](Start_Output.jpeg)
+![ScopeResult7](Grip_Output.jpeg)
+![ScopeResult8](Extend_Output.jpeg)
+![ScopeResult9](Arm_Up_Output.jpeg)
+![ScopeResult10](Reset_Output.jpeg)
 
 
 ---
