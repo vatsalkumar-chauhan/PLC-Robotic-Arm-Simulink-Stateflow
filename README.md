@@ -483,3 +483,74 @@ B.Tech Automation & Robotics
 
 ---
 
+# ▶️ How to Run the Project
+
+Follow these steps to open and simulate the model:
+
+---
+
+## 🧩 Requirements
+
+* MATLAB (R2020 or later recommended)
+* Simulink
+* Stateflow
+
+---
+
+## 📥 Step 1 — Download the Project
+
+* Clone the repository or download ZIP
+* Extract files (if ZIP)
+
+---
+
+## 📂 Step 2 — Open the Model
+
+1. Open MATLAB
+2. Navigate to the project folder
+3. Open the file:
+
+```text
+PLC.slx
+```
+
+OR double-click the `.slx` file
+
+---
+
+## ▶️ Step 3 — Run Simulation
+
+1. Click the **Run (▶️)** button in Simulink
+2. Observe system behavior
+
+---
+
+## 👀 Step 4 — Observe Outputs
+
+* **Dashboard Lamps** → show ON/OFF state of each operation
+* **Scope Blocks** → display signal changes over time
+
+---
+
+## 🔄 Expected Behavior
+
+The system follows a sequential operation:
+
+```text
+Idle → Arm Down → Grip → Extend → Arm Up → Reset
+```
+
+* Each stage activates one output at a time
+* Timer introduces delay between steps
+* Reset returns system to initial state
+
+---
+
+## ⚠️ Notes
+
+* Ensure all toolboxes (Simulink + Stateflow) are installed
+* If signals do not update, check simulation is running
+
+---
+
+
